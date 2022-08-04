@@ -1,42 +1,29 @@
 # Getting Started with Lab
 
 1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the the lab.
+
+
 1. To get the lab environment details, you can select **Lab Environment** tab. 
 
-   ![](images/solution1.PNG "Lab Environment")
- 
- 
+   ![](images/labenv.png "Lab Environment")
  
 ## Login to Azure Portal
+
 1. In the JumpVM, click on Azure portal shortcut of Microsoft Edge browser which is created on desktop.
 
-   ![azure portal.](images/solution2.PNG)
+   ![azure portal.](images/azportal.png)
    
-1. When you click on Azure portal, edge browser welcome screen will come up, select **Get started**.
-
-   ![](images/17.png "Get started")
-   
-1. On next window, click on **Confirm**.
-
-   ![](images/18.png "Confirm")
-   
-1. Now, you can close the popup which is coming up.
-
-   ![](images/19.png "Confirm")
-   
-1. Now, you will see two tabs in edge browser, close first tab named with **Microsoft Edge**.
-
-   ![](images/20.png "Close Tab")
+1. When you click on Azure portal shortcut, you will be presented with a **Sign in** balde to sign-in to Azure.
    
 1. On **Sign in to Micsoft Azure** tab you will see login screen, in that enter following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
-     ![](images/21.png "Enter Email")
+     ![](images/signin1.png "Enter Email")
      
 1. Now enter the following password and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
    
-     ![](images/22.png "Enter Password")
+     ![](images/signin2.png "Enter Password")
      
 1. If you see the pop-up **Stay Signed in?**, click No
 
@@ -46,11 +33,11 @@
    
 1. Now you will see Azure Portal Dashboard, click on **Resource groups** to see the resource groups.
 
-   ![](images/23.png "Resource groups")
+   ![](images/rg1.png "Resource groups")
    
-1. Confirm you have all resource group are present as shown below.
+1. Confirm you have the resource group named **VA-<inject key="DeploymentID" enableCopy="false" />** are present as shown below.
 
-   ![](images/solution5.png "Resource groups")
+   ![](images/rg2.png "Resource groups")
    
 1. Now, click on the **Resource group** 
 
@@ -58,6 +45,6 @@
 
 If your environment is stopped due to inactivity feature, please follow the below steps to start the resources: 
 
-   
-In Lab Resources, please select the start all virtual machines button to start the resources
-![azure portal.](images/solution4.png)
+1. Select the **Resources** tab and click on **Start** button to start the resources.
+
+![azure portal.](images/resourcestab.png)
